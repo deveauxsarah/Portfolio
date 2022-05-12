@@ -39,3 +39,12 @@ function disableCopyPaste() {
 }
 
 window.addEventListener('load', disableCopyPaste);
+
+let skill = document.getElementById('skill');
+let frontCard = document.querySelector('.front');
+let backCard = document.querySelector('.back');
+
+
+if (window.matchMedia("(min-width: 390px)").matches) {
+    skill.style.justifyContent ='center';
+}
