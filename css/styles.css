@@ -53,6 +53,7 @@
         width: 100%;
         position: sticky;
 		z-index: 2;
+	background-image: url(https://c.wallhere.com/photos/48/31/gray_abstract_textured_texture_digital_art-1368227.jpg!d);
 }    
  
 #butTop{
@@ -171,7 +172,6 @@ form label {
 	height: 200px;
 	position: relative;
 	overflow: hidden;
-	
   }
   .item img {
 	position: absolute;
@@ -243,7 +243,6 @@ form label {
   }
  
 #projets{
-
 	background-image:url(https://cdn.pixabay.com/photo/2016/08/02/07/45/the-polygon-1562743_1280.jpg);
 	background-attachment: fixed;
 }
@@ -261,4 +260,9 @@ form label {
 #competences{
 	background: rgb(161,160,161);
 	background: radial-gradient(circle, rgba(161,160,161,1) 0%, rgba(0,0,0,1) 89%);
+}
+
+::selection {
+	background: #d946ef;
+	color: #ffffff;
 }

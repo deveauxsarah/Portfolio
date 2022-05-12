@@ -7,27 +7,64 @@
         <title>Portfolio DEVEAUX Sarah</title>
         <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
         <link href="/dist/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen"/>
         <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="flex flex-col min-h-full text-black" >
-        <nav id="navbar"class="flex flex-row items-center justify-between "style="background-image: url(https://c.wallhere.com/photos/48/31/gray_abstract_textured_texture_digital_art-1368227.jpg!d);">
-            <span class=" text-white font-serif italic text-4xl m-6 ml-6">DEVEAUX Sarah </span>
-                <ul class="flex flex-row text-white font-normal text-lg">
-                    <li id="topHome"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">
-                        <a href="#presentation">Présentation</a></li>
-                    <li id="topProjets"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">
-                        <a href="#projets">Projets</a></li>
-                    <li id="topCompetences"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">
-                        <a href="#competences">Compétences</a></li>
-                    <li id="topCv"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">
-                        <a href="#cv">CV</a></li>
-                    <li id="topParcours"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">
-                        <a href="#parcours">Parcours</a></li>
-                    <li id="topContact"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">
-                        <a href="#contact">Contact</a></li>    
+    <nav id="navbar" class="border-gray-200 px-2 sm:px-4 py-2.5 bg-gray-800 sticky">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a class="flex items-center">
+                <span class="self-center font-serif italic text-2xl m-4 whitespace-nowrap text-white">DEVEAUX Sarah</span>
+            </a>
+            <button data-collapse-toggle="mobile-menu" type="button" class="hover:fill-fuchsia-600 inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none dark:text-gray-400 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6 fill-white hover:fill-fuchsia-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <li>
+                        <a href="#presentation" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-transparent md:hover:bg-transparent md:border-0 hover:text-fuchsia-500 md:p-0 dark:text-white" aria-current="page">Présentation</a>
+                    </li>
+                    <li>
+                        <a href="#projets" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-transparent md:hover:bg-transparent md:border-0 hover:text-fuchsia-500 md:p-0 dark:text-white">Projets</a>
+                    </li>
+                    <li>
+                        <a href="#competences" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-transparent md:hover:bg-transparent md:border-0 hover:text-fuchsia-500 md:p-0 dark:text-white">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="#cv" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-transparent md:hover:bg-transparent md:border-0 hover:text-fuchsia-500 md:p-0 dark:text-white">CV</a>
+                    </li>
+                    <li>
+                        <a href="#parcours" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-transparent md:hover:bg-transparent md:border-0 hover:text-fuchsia-500 md:p-0 dark:text-white">Parcours</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-transparent md:hover:bg-transparent md:border-0 hover:text-fuchsia-500 md:p-0 dark:text-white">Contact</a>
+                    </li>
                 </ul>
-        </nav>
+            </div>
+        </div>
+    </nav>
+<!--            <nav id="navbar"class="flex flex-row items-center justify-between"style="background-image: url(https://c.wallhere.com/photos/48/31/gray_abstract_textured_texture_digital_art-1368227.jpg!d);">-->
+<!--            <span class=" text-white font-serif italic text-4xl m-6 ml-6">DEVEAUX Sarah </span>-->
+<!--                <ul class="flex flex-row text-white font-normal text-lg">-->
+<!--                    <li id="topHome"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">-->
+<!--                        <a href="#presentation">Présentation</a></li>-->
+<!--                    <li id="topProjets"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">-->
+<!--                        <a href="#projets">Projets</a></li>-->
+<!--                    <li id="topCompetences"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">-->
+<!--                        <a href="#competences">Compétences</a></li>-->
+<!--                    <li id="topCv"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">-->
+<!--                        <a href="#cv">CV</a></li>-->
+<!--                    <li id="topParcours"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">-->
+<!--                        <a href="#parcours">Parcours</a></li>-->
+<!--                    <li id="topContact"class="mx-2 p-2 rounded ease-in-out hover:bg-white transition duration-500 ease-in-out">-->
+<!--                        <a href="#contact">Contact</a></li>-->
+<!--                </ul>-->
+<!--        </nav>-->
                               
     <header>
         <section id="presentation" >
@@ -57,64 +94,64 @@
     </header>
     <main>              
         <section id="projets">
-            <div class="flex flex-col items-center justify-around mx-auto px-5 py-8 hover:shadow-lg">
-                <h2 class="text-4xl font-medium m-4 "><br><br>Projets</h2>
-                <div class="flex flex-row items-center justify-around social col-md-3 col-md-offset-4 m-4 ">
-                    <div class="item">
-                        <span class="h-48  w-48 rounded-md">
-                            <img class="" href="" target="_blank"src="./images/hospital.PNG" alt="">
-                                <div class="caption">
-                                    <a class="btn" href="">Un RDV ?</a>
-                                </div>
-                        </span>
+            <div class="flex flex-col items-center justify-around mx-auto px-5 py-8 hover:shadow-lg grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5">
+                <div class="card--1 bg-white shadow-lg shadow-gray-900 rounded-3xl max-w-xs pt-4 pb-8 px-4">
+                    <div class="w-full h-64">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./images/hospital.PNG" alt="Antelope Canyon">
                     </div>
-                    <div class="item">
-                        <span class="h-48  w-48 rounded-md">
-                            <img class=""  target="_blank" src="./images/memory-card.PNG" alt="">
-                                <div class="caption">
-                                    <a class="btn" href="">Training ...</a>
-                                </div>
-                        </span>
+                    <div>
+                        <h2 class="capitalize font-semibold text-xl mt-3 mb-2 text-gray-900">Hopital</h2>
+                        <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Un RDV ?</button>
                     </div>
-                    <div class="item">
-                        <span class="h-48  w-48 rounded-md">
-                            <img class="" href="" target="_blank"src="./images/morpion2.PNG" alt="">
-                                <div class="caption">
-                                    <a class="btn" href="">Une partie ?</a>
-                                </div>
-                        </span>
+                </div>
+                <div class="card--1 bg-white shadow-lg shadow-gray-900 rounded-3xl max-w-xs pt-4 pb-8 px-4">
+                    <div class="w-full h-64">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./images/memory-card.PNG" alt="Antelope Canyon">
                     </div>
-                    <div class="item">
-                        <span class="h-48  w-48 rounded-md">
-                            <img class="" href="" target="_blank" src="./images/image2.jpg" alt="">
-                                <div class="caption">
-                                    <a class="btn" href="">Jouez ...</a>
-                                </div>
-                        </span>
+                    <div>
+                        <h2 class="capitalize font-semibold text-xl mt-3 mb-2 text-gray-900">Memory Card</h2>
+                        <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Training ...</button>
                     </div>
-                    <div class="item">
-                        <span class="h-48  w-48 rounded-md">
-                            <img class="" href="" src="./images/image2.jpg" alt="my sql">
-                                <div class="caption">
-                                    <a class="btn" href="">Jouez ...</a>
-                                </div>
-                        </span>
+                </div>
+                <div class="card--1 bg-white shadow-lg shadow-gray-900 rounded-3xl max-w-xs pt-4 pb-8 px-4">
+                    <div class="w-full h-64">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./images/morpion2.PNG" alt="Antelope Canyon">
+                    </div>
+                    <div>
+                        <h2 class="capitalize font-semibold text-xl mt-3 mb-2 text-gray-900">Morpion</h2>
+                        <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Une partie ?</button>
+                    </div>
+                </div>
+                <div class="card--1 bg-white shadow-lg shadow-gray-900 rounded-3xl max-w-xs pt-4 pb-8 px-4">
+                    <div class="w-full h-64">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./images/image2.jpg" alt="Antelope Canyon">
+                    </div>
+                    <div>
+                        <h2 class="capitalize font-semibold text-xl mt-3 mb-2 text-gray-900">antelope canyon paint</h2>
+                        <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Jouez ...</button>
+                    </div>
+                </div>
+                <div class="card--1 bg-white shadow-lg shadow-gray-900 rounded-3xl max-w-xs pt-4 pb-8 px-4">
+                    <div class="w-full h-64">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./images/image2.jpg" alt="Antelope Canyon">
+                    </div>
+                    <div>
+                        <h2 class="capitalize font-semibold text-xl mt-3 mb-2 text-gray-900">antelope canyon paint</h2>
+                        <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Jouez ...</button>
                     </div>
                 </div>
             </div>
         </section>     
         <section id="competences">
             <h2 class="flex flex-col items-center justify-center text-white text-4xl font-medium m-4"><br><br>Compétences</h2>
-            <div class="flex flex-row items-center justify-between social col-md-3 col-md-offset-4 m-4 ">
+            <div class="grid xl:grid-cols-4 md:grid-cols-3 sm:justify-center gap-5 items-center justify-between social col-md-3 col-md-offset-4 m-4 ">
                 <img src="./images/css.png">
                 <img src="./images/html.png">
                 <img src="./images/js.png">
                 <img src="./images/php.png">
                 <img src="./images/symfony.png">
                 <img src="./images/wordpress.png">
-            </div> 
-            
-            
+            </div>
     </section>
     <section id="cv" >
             <div class="flex flex-col items-center justify-center px-5 py-8 hover:shadow-lg">
@@ -132,24 +169,21 @@
                 <span class="text-center">
                     <img  src="./images/parcours.png">
                  </span>
-                <p class="text-xl font-thin text-center my-4 w-3/4">
-                    __________
-                </p> 
             </div>
         </section>    
         <section id="contact">
             <div class="flex flex-col items-center justify-center px-5 py-8 hover:shadow-lg ">
-                <h2 class="text-4xl font-medium m-4"><br><br>Contact</h2>
+                <h2 class="text-4xl font-medium m-4">Contact</h2>
                     <span>
-                        <div class="cardflip ">
-                            <div class="front side">
+                        <div class="cardflip flex justify-center">
+                            <div class="front side xl:w-[90%]  sm:w-2/3">
                                 <div class="content">
                                     <h1 class="text-4xl">DEVEAUX Sarah</h1>
-                                    <p class="text-2xl"><br>N'hésitez pas à prendre mes contacts pour toutes questions ou conseils avisés qui me permettront de progresser davantage...
+                                    <p class="text-2xl">N'hésitez pas à prendre mes contacts pour toutes questions ou conseils avisés qui me permettront de progresser davantage...
                                     </p>
                                 </div>
                             </div>
-                            <div class="back side">
+                            <div class="back side xl:w-[90%] sm:w-2/3">
                                 <div class="content">
                                     <h1 class="text-4xl">Contactez-moi</h1>
                                     <form class="py-5">
