@@ -49,6 +49,6 @@ if (window.matchMedia("(min-width: 390px)").matches) {
     skill.style.justifyContent ='center';
 }
 
-function goto(url) {
+function Goto(url) {
     window.open(url, '_blank').focus();
 }
