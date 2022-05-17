@@ -48,3 +48,7 @@ let backCard = document.querySelector('.back');
 if (window.matchMedia("(min-width: 390px)").matches) {
     skill.style.justifyContent ='center';
 }
+
+function goto(url) {
+    window.open(url, '_blank').focus();
+}
