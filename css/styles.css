@@ -66,25 +66,35 @@
   }
 #presentation{
 	background-image:url(https://www.parement-bois.fr/wp-content/uploads/2020/09/mur-de-lambris-1.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
 	background-attachment: fixed;
 } 
 #projets{
 	background-image:url(https://www.parement-bois.fr/wp-content/uploads/2020/09/mur-de-lambris-1.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
 	background-attachment: fixed;
 }
   #cv{
 	  background-image:url(https://www.parement-bois.fr/wp-content/uploads/2020/09/mur-de-lambris-1.jpg);
-	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
 
   }
   #footer{
 	  background-image:url(https://www.parement-bois.fr/wp-content/uploads/2020/09/mur-de-lambris-1.jpg);
-	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
 
   }
 #competences{
   background-image:url(https://www.parement-bois.fr/wp-content/uploads/2020/09/mur-de-lambris-1.jpg);
-  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
 }
 
 ::selection {
