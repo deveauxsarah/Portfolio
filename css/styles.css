@@ -67,6 +67,12 @@
 
    border-color: rgb(245, 18, 169);
   }
+  #artFace{
+    background-image:url(https://ns328286.ip-37-187-113.eu/ew/wallpapers/800x480/03339_800x480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  } 
 #presentation{
 	background-image:url(https://ns328286.ip-37-187-113.eu/ew/wallpapers/800x480/03339_800x480.jpg);
 	background-repeat: no-repeat;
