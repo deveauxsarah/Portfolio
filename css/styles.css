@@ -65,6 +65,7 @@
    border-color: rgb(245, 18, 169);
   }
 #presentation{
+  background-color:darkgoldenrod;
 	background-repeat: no-repeat;
   background-size: cover;
 	background-attachment: fixed;
